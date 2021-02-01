@@ -12,7 +12,6 @@ function App() {
       <Switch>
         <Route path="/welcome/:name" component={Welcome}/>
         <Route path="/:name" component={Welcome}/>
-        <Route path="/jeopardy" component={Jeopardy}/>
         <Route component={NoMatch}/>
       </Switch>
     </Router>
