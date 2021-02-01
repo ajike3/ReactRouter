@@ -8,16 +8,7 @@ import Jeopardy from './components/jeopardy/jeopardy';
 function App() {
   return (
     <Router>
-      <div className="Container">
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Jeopardy</li>
-            <li>Contacts</li>
-            <li>Clock</li>
-          </ul>
-        </nav>
-      </div>
+      <div className="Container"></div>
       <Switch>
         <Route path="/welcome/:name" component={Welcome}/>
         <Route path="/:name" component={Welcome}/>
